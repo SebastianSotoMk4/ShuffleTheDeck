@@ -83,8 +83,8 @@ Module ShuffleTheDeck
                 cardDeck(cardValue, 1) = cardDeck(cardValue, 0)
                 Console.WriteLine(cardDeck(cardValue, 0))
 
-                'Add Readline one next line to deal one card per "enter" press
-                'Console.ReadLine()
+                'Remove the Readline one next line to deal all cards.
+                Console.ReadLine()
             Next
             Console.WriteLine("Type S to shuffle or Q to quit")
             Do
